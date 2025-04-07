@@ -9,29 +9,29 @@ using System.Text.Json.Serialization;
 
 namespace tpmodul7_kelompok_3
 {
-    internal class DataMahasiswa_103022300131
+    internal class DataMahasiswa103022330167
     {
         [JsonPropertyName("nama")]
         public Nama Nama { get; set; }
 
         [JsonPropertyName("nim")]
-        public long Nim { get; set; }
+        public string Nim { get; set; }
 
         [JsonPropertyName("fakultas")]
         public string Fakultas { get; set; }
 
         public void ReadJSON()
         {
-            String filePath = @"F:\TP Modul KPL\kelompok\tpmodul7_kelompok_3\tp7_1_103022300131.json";
+            String filePath = @"tp7_1_103022330167.json";
             if (File.Exists(filePath))
             {
                 var options = new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 };
-
+                
                 string json = File.ReadAllText(filePath);
-                DataMahasiswa_103022300131 data = JsonSerializer.Deserialize<DataMahasiswa_103022300131>(json, options);
+                DataMahasiswa103022330167 data = JsonSerializer.Deserialize<DataMahasiswa103022330167>(json, options);
 
                 Console.WriteLine($"Nama: {data.Nama.depan} {data.Nama.belakang} dengan NIM: {data.Nim} dari Fakultas: {data.Fakultas}");
             }
@@ -52,4 +52,3 @@ namespace tpmodul7_kelompok_3
         public string belakang { get; set; }
     }
 }
-

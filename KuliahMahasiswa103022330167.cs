@@ -10,14 +10,14 @@ using System.Text.Json.Serialization;
 
 namespace tpmodul7_kelompok_3
 {
-    internal class KuliahMahasiswa103022300046
+    internal class KuliahMahasiswa103022330167
     {
         [JsonPropertyName("courses")]
         public List<Courses> Courses { get; set; }
 
         public void ReadJSON()
         {
-            String filePath = @"D:\praktikum\KPL\tpmodul_kelompok_3\tp7_2_103022300046.json";
+            String filePath = @"tp7_2_103022330167.json";
             if (File.Exists(filePath))
             {
                 var options = new JsonSerializerOptions
@@ -26,7 +26,7 @@ namespace tpmodul7_kelompok_3
                 };
 
                 string json = File.ReadAllText(filePath);
-                KuliahMahasiswa103022300046 data = JsonSerializer.Deserialize<KuliahMahasiswa103022300046>(json, options);
+                KuliahMahasiswa103022330167 data = JsonSerializer.Deserialize<KuliahMahasiswa103022330167>(json, options);
 
                 int i = 1;
                 foreach (var course in data.Courses)
@@ -44,9 +44,9 @@ namespace tpmodul7_kelompok_3
 
     public class Courses
     {
-        [JsonPropertyName("code")]
+        [JsonPropertyName("kode_mk")]
         public string Code { get; set; }
-        [JsonPropertyName("name")]
+        [JsonPropertyName("nama_mk")]
         public string Name { get; set; }
     }
 }

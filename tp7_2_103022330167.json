@@ -1,0 +1,28 @@
+{
+	"courses": [
+		{
+			"kode_mk": "CCK2AAB4",
+			"nama_mk": "Struktur Data"
+		},
+		{
+			"kode_mk": "CCK2IAB3",
+			"nama_mk": "Dasar Jaringan Komputer"
+		},
+		{
+			"kode_mk": "CCK2FAB4",
+			"nama_mk": "Arsitektur dan Desain Perangkat Lunak"
+		},
+		{
+			"kode_mk": "CCK2KAB4",
+			"nama_mk": "Konstruksi Perangkat Lunak"
+		},
+		{
+			"kode_mk": "CCK2JAC2",
+			"nama_mk": "Proyek Tingkat 2"
+		},
+		{
+			"kode_mk": "CCK3JAB2",
+			"nama_mk": "Bahasa Inggris"
+		}
+	]
+}
