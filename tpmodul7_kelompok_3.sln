@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35806.103 d17.14
+VisualStudioVersion = 17.13.35818.85 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul7_kelompok_3", "tpmodul7_kelompok_3.csproj", "{69264BB4-1BFC-43F3-87F5-1A56B4A1DF15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpmodul7_kelompok_3", "tpmodul7_kelompok_3\tpmodul7_kelompok_3.csproj", "{A172DF32-7D26-42D2-917D-CE7F9D57A384}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69264BB4-1BFC-43F3-87F5-1A56B4A1DF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69264BB4-1BFC-43F3-87F5-1A56B4A1DF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69264BB4-1BFC-43F3-87F5-1A56B4A1DF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69264BB4-1BFC-43F3-87F5-1A56B4A1DF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A172DF32-7D26-42D2-917D-CE7F9D57A384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A172DF32-7D26-42D2-917D-CE7F9D57A384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A172DF32-7D26-42D2-917D-CE7F9D57A384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A172DF32-7D26-42D2-917D-CE7F9D57A384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BD7DF929-89D0-47AD-98D8-68AE2B892681}
+		SolutionGuid = {A8067D0B-8C07-46FB-BBAD-5BD05B49AA14}
 	EndGlobalSection
 EndGlobal
