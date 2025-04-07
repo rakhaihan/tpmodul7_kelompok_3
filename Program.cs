@@ -6,7 +6,6 @@ namespace tpmodul7_kelompok_3
     {
         static void Main(string[] args)
         {
-
             DataMahasiswa103022300046 dataRakha = new DataMahasiswa103022300046();
             dataRakha.ReadJSON();
 
@@ -29,8 +28,16 @@ namespace tpmodul7_kelompok_3
             kuliahJack.ReadJSON();
           
             Console.WriteLine();
+
+            DataMahasiswa_103022300063 dataAgung = new DataMahasiswa_103022300063();
+            dataAgung.ReadJSON();
+            KuliahMahasiswa_103022300063 kuliahAgung = new KuliahMahasiswa_103022300063();
+            kuliahAgung.ReadJSON();
+
+            Console.WriteLine();
         }
     }
 }
+
 
 
