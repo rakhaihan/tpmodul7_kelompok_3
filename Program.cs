@@ -21,7 +21,16 @@ namespace tpmodul7_kelompok_3
             kuliahAzki.ReadJSON();
 
             Console.WriteLine();
+          
+            DataMahasiswa_103022300024 dataJack = new DataMahasiswa_103022300024();
+            dataJack.ReadJSON();
+
+            KuliahMahasiswa_103022300024 kuliahJack = new KuliahMahasiswa_103022300024();
+            kuliahJack.ReadJSON();
+          
+            Console.WriteLine();
         }
     }
 }
+
 
