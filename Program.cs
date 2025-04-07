@@ -7,7 +7,8 @@
             DataMahasiswa103022300046 dataRakha = new DataMahasiswa103022300046();
             dataRakha.ReadJSON();
 
-            
+            KuliahMahasiswa103022300046 kuliahMahasiswa = new KuliahMahasiswa103022300046();
+            kuliahMahasiswa.ReadJSON();
         }
     }
 }
